@@ -69,7 +69,7 @@ public class ClientUtils {
     }
 
     public static void updateClientVersion() {
-        Smok.inst.serverVersion = ClientUtils.getDoubleFromUrl("https://raw.githubusercontent.com/SleepyFishYT/SMok-Client/master/Newest-Version.txt");
+        Smok.inst.serverVersion = ClientUtils.getDoubleFromUrl("https://raw.githubusercontent.com/SleepyFish-YT/Smok/blob/main/!%20Smok/Newest-Version.txt");
         ClientUtils.addDebug("updated server double");
     }
 
