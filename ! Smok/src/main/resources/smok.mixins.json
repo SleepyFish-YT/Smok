@@ -1,0 +1,18 @@
+{
+  "compatibilityLevel": "JAVA_8",
+  "package": "maxstats.weave.mixin",
+  "mixins": [
+    "MixinAbstractClientPlayer",
+    "MixinEntity",
+    "MixinEntityPlayerSP",
+    "MixinEntityRenderer",
+    "MixinItemRenderer",
+    "MixinMinecraft",
+    "MixinMovingObjectPosition",
+    "MixinNetworkManager",
+    "MixinRenderManager",
+    "MixinRenderPlayer",
+    "fpsboost.MixinEffectRenderer",
+    "fpsboost.MixinEntityRenderer"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "mixinConfigs": [
+    "smok.mixins.json"
+  ],
+  "entrypoints": [
+    "maxstats.weave.Entrypoint"
+  ],
+  "about": {
+    "name": "Smok",
+    "version": "2.0",
+    "author": "SleepyFish",
+    "description": "Best and first released Weave ghost client",
+    "website": "https://discord.gg/7JXXvkufJK"
+  }
+}
