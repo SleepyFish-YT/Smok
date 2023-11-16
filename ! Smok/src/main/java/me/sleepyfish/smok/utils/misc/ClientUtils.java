@@ -76,7 +76,7 @@ public class ClientUtils {
     public static void checkLaunch() {
         ClientUtils.updateClientVersion();
 
-        if (ClientUtils.getDoubleFromUrl("https://raw.githubusercontent.com/SleepyFishYT/SMok-Client/master/Newest-Version.txt") > Smok.inst.getClientVersion()) {
+        if (ClientUtils.getDoubleFromUrl("https://raw.githubusercontent.com/SleepyFish-YT/Smok/blob/main/!%20Smok/Newest-Version.txt") > Smok.inst.getClientVersion()) {
             ClientUtils.openLink("https://github.com/SleepyFishYT/SMok-Client/blob/master/Outdatedt-Text.txt");
         }
     }
