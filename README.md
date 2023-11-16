@@ -1,7 +1,7 @@
 # Repository Information:
 <p align="left">
   <img src="https://img.shields.io/github/languages/code-size/SleepyFish-YT/Smok.svg" alt="size"/>
-  <img src="https://tokei.rs/b1/github/SleepyFish-YT/Smok?moduleCategory=code" alt="lines"/>
+  <img src="https://tokei.rs/b1/github/SleepyFish-YT/Smok/tree/main/!%20Smok?moduleCategory=code" alt="lines"/>
   <img src="https://img.shields.io/github/languages/top/SleepyFish-YT/Smok" alt="java"/>
 </p>
 
