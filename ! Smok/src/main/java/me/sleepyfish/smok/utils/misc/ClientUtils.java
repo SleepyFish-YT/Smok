@@ -69,14 +69,14 @@ public class ClientUtils {
     }
 
     public static void updateClientVersion() {
-        Smok.inst.serverVersion = ClientUtils.getDoubleFromUrl("https://raw.githubusercontent.com/SleepyFish-YT/Smok/blob/main/!%20Smok/Newest-Version.txt");
+        Smok.inst.serverVersion = ClientUtils.getDoubleFromUrl("https://raw.githubusercontent.com/SleepyFish-YT/Smok/main/!%20Smok/Newest-Version.txt");
         ClientUtils.addDebug("updated server double");
     }
 
     public static void checkLaunch() {
         ClientUtils.updateClientVersion();
 
-        if (ClientUtils.getDoubleFromUrl("https://raw.githubusercontent.com/SleepyFish-YT/Smok/blob/main/!%20Smok/Newest-Version.txt") > Smok.inst.getClientVersion()) {
+        if (ClientUtils.getDoubleFromUrl("https://raw.githubusercontent.com/SleepyFish-YT/Smok/main/!%20Smok/Newest-Version.txt") > Smok.inst.getClientVersion()) {
             ClientUtils.openLink("https://github.com/SleepyFishYT/SMok-Client/blob/master/Outdatedt-Text.txt");
         }
     }
